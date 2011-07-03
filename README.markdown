@@ -29,19 +29,4 @@ Use:
 Functions
 ---------
 
-	type User struct {
-			ID string // The user's ID, represented as an email in the current system.
-			// contains filtered or unexported fields
-	}
-
-### func Get(c http.ResponseWriter, r *http.Request) (u *User, err os.Error)
-
-### func GetExisting(r *http.Request) (u *User, err os.Error)
-
-### func (u *User) Get(key string) string
-
-### func (u *User) Set(key string, val string)
-
-### func (u *User) Load() (err os.Error)
-
-### func (u *User) Save() os.Error
+See http://gopkgdoc.appspot.com/pkg/github.com/crazy2be/user for the full function reference.
